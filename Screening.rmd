@@ -1,0 +1,158 @@
+---
+output:
+  html_document:
+    toc: false
+    toc_float: false
+    toc_depth: 2
+    css: quote.css
+---
+
+```{r pressure, echo=FALSE, fig.cap="", out.width = '20%'}
+knitr::include_graphics("5.png")
+```
+
+# Instrucciones para realizar el screening editorial {.tabset .tabset-fade}
+Este documento recoge un conjunto de cuestiones a tener en cuenta a la hora de realizar el screening editorial de manuscritos enviados a la Revista de Psicología (Tercera Época) de la Universidad Nacional de La Plata.
+
+***
+
+## Paso 1: Chequeo de metadatos en OJS
+Esta parte puede completarse directamente en OJS. Deben observarse las siguientes cuestiones relativas a los metadatos:
+
+- Que el **título** esté escrito correctamente y no posea mayúsculas indebidas.
+- Que los autores hayan cargado el **título en los tres idiomas** de nuestra Revista (Español, Inglés, Portugués). Para chequear esto basta con hacer un click en el campo "título" en OJS, y la plataforma desplegará los campos análogos en los demás idiomas. Si sólo se ha cargado el título en Español, cargar los títulos en los idiomas restantes a partir del manuscrito (debería tener el título en los tres idiomas).
+- Que los autores hayan cargado adecuadamente el **resumen del trabajo** en los tres idiomas de nuestra Revista. Si sólo se ha cargado el resumen en Español, cargar los resúmenes en los idiomas restantes a partir del manuscrito (debería tener el resumen en los tres idiomas).
+- Que los autores hayan cargado sus **datos personales** correctamente (como mínimo deben cargar su nombre y apellido, su correo electrónico, su filiación institucional y su CV de hasta 200 palabras). Si el CV de los autores no estuviera cargado, debe solicitarse a ellos a través de correo electrónico (no solicitándoles que lo carguen en el sistema OJS). Una vez lo envíen, cargar el CV en el campo correspondiente en OJS.
+- Que los autores hayan cargado las **palabras clave**. Que lo hayan hecho en minúsculas, y separándolas con comas, de modo que en OJS queden como campos separados (ver Figura 1). Si no lo hubieran hecho así, corregirlo directamente en OJS.
+
+```{r pressure2, echo=FALSE, fig.cap="Figura 1", out.width = '60%', fig.align='center'}
+knitr::include_graphics("Captura de pantalla 2018-09-11 a las 13.55.59.png")
+```
+
+- No considerar si los autores han cargado o no las **citas** en OJS, dado que esto lo gestionaremos a través de un archivo BibTeX vía Zotero.
+
+***
+
+## Paso 2: Chequeo del archivo del manuscrito
+Esta parte requiere evaluar el archivo .doc, .docx u .odt enviado por los autores durante la submisión. Este archivo puede descargarse desde OJS, pestaña "_Envío_", sección "_Archivos de envío_". Deben observarse diferentes cuestiones.
+
+### Pautas generales de formato
+
+- Que el **tamaño de página** del archivo de texto sea A4.
+- Que todos los **márgenes** sean 2,54cm.
+- Que la **fuente** sea *Times New Roman* 12ptos.
+- Que la **alineación** sea *izquierda* (no *justificada*).
+- Que el **interlineado** sea doble en todo el manuscrito.
+- No resulta particularmente importante que se respete el **espaciado**, dado que este aspecto se soluciona al importar el manuscrito para crear las galeradas.
+
+Cualquier discrepancia debe ser trasladada al informe de screening.
+
+### Componentes del manuscrito
+
+- Que el **título** tenga hasta 15 palabras. Atender especialmente a títulos que poseen dos puntos. Por ejemplo, el siguiente título posee 4 palabras, dado que lo que sigue a los dos puntos se considera subtítulo:
+
+> El desarrollo del lenguaje: una cuestión cognitiva y cultural.
+
+  No obstante, el siguiente título posee 9 palabras:
+  
+> El desarrollo del lenguaje. Una cuestión cognitiva y cultural.
+
+- Que los autores hayan respetado la estructura de **niveles de títulos** propuesta por APA (ver Figura 2). Esto es particularmente importante, pues acelera enormemente el proceso de creación de galeradas.
+
+```{r pressure3, echo=FALSE, fig.cap="Figura 2", out.width = '60%', fig.align='center'}
+knitr::include_graphics("Revpsitabla.png")
+```
+
+- Que las **tablas** estén al final del manuscrito.
+- Que las **tablas** hayan sido realizadas empleando la *herramienta de tablas* del procesador de textos (que no sean imágenes).
+- Que las **tablas** estén correctamente *numeradas* y que posean una *leyenda*.
+- Que en el manuscrito figuren las **referencias a las tablas** ("Insertar tabla X aquí").
+- Que si el manuscrito incluye **figuras**, estas hayan sido enviadas a través de OJS (en cuyo caso deberían poder descargarse en la pestaña "_Envíos_", sección "_Archivos de envío_").  
+- Que las **figuras** posean *formato* .png, .tiff, o .jpeg.
+- Que la *resolución* de las **figuras** no sea inferior a 300dpi (usualmente puede averiguarse haciendo click derecho sobre la imagen en el Explorador de Windows, y clickeando la opción "_Propiedades_").  
+- Que las **figuras** estén correctamente *numeradas* y que posean una *leyenda*.
+- Que en el manuscrito figuren las **referencias a las figuras** ("Insertar figura X aquí").
+
+Cualquier discrepancia debe ser trasladada al informe de screening.
+
+### Estilo de escritura
+
+- Que las **referencias bibliográficas** sigan el formato APA en su 6ta edición para el idioma Español (revisar especialmente el uso de "&").
+- No chequear en esta instancia la inclusión de los **DOI** en las referencias a artículos, dado que esto lo gestionaremos a través de un archivo BibTeX vía Zotero.
+- Que las **abreviaturas**, de existir, estén correctamente definidas la primera vez que son empleadas. Por ejemplo:
+
+> Los *esquemas imaginísticos* (EI) son estructuras cognitivas...
+
+- Que el uso de **abreviaturas** no resulte excesivo. Por default, si el manuscrito contiene más de 5 abreviaturas, se debe invitar a los autores a decidir si ellas son realmente necesarias, o bien son prescindibles.
+- Que las **notas al pie**, de existir, no resulten excesivas, y sean realmente necesarias. Por default, si el manuscrito contiene más de 5 notas al pie, se debe invitar a los autores a decidir si ellas son realmente necesarias, o bien son prescindibles.
+
+Cualquier discrepancia debe ser trasladada al informe de screening. Puntualmente, si hubiera errores de estilo, debe invitarse a los autores a revisar los recursos que figuran en nuestra web para formatear adecuadamente las referencias bibliográficas: [Manual de Estilo publicado online por el Centro de Escritura Javeriano](http://centrodeescritura.javerianacali.edu.co/index.php?option=com_content&view=article&id=138:normas-apa&catid=45:referencias-bibliograficas&Itemid=66), [Purdue Online Writing Lab](https://owl.english.purdue.edu/owl/resource/560/01/) (en Inglés).
+
+### Formato según el tipo de contribución
+
+- Que los autores **no hayan incluido sus datos en la carátula**, para permitir que el archivo atraviese el proceso de revisión por pares doble ciego.
+- Que el manusrito respete la **estructura** que se solicita en las [Pautas de envío](https://revistas.unlp.edu.ar/RPSEUNLP/about/submissions). Por ejemplo: carátula, uso correcto de las primeras páginas, ubicación de notas y agradecimientos, estructura formal APA (en el caso de artículos empíricos), presencia de "Aspectos destacados del trabajo".
+- Este último ítem, la **presencia de los "*Aspectos destacados del trabajo*"**, es muy relevante. Cada uno de los *aspectos* debe tener hasta 15 palabras.
+
+### Recomendaciones para elaborar el informe
+
+- Utilizar el **modelo de *informe de screening editorial*** para alivianar el trabajo. Puede encontrarse más abajo, en el Anexo 1. El texto del anexo puede copiarse y pegarse en un correo directamente para luego completarlo. 
+- Emplear un **registro amable**. No exigir a los autores, sino *sugerir*, *invitar*, *solicitar* y *pedir* los cambios.
+- Cuando la indicación pudiera generar dudas, incluir un **ejemplo**:
+
+> Los conglomerados de citas deben estar ordenados alfabéticamente. Por ejemplo: "(Sánchez, 2003; Suarez, 1997; Córdoba, 1999)" debería ser "(Córdoba, 1999; Sánchez, 2003; Suárez, 1997)"
+
+- Emplear el **formato de lista** para hacer la lectura más fluida. 
+
+***
+
+## Paso 3: Envío del informe a los autores y actualización de la tarea en la plataforma de gestión de la Revista
+
+- **Enviar el informe a los autores** a través de una cuenta institucional (@psico.unlp.edu.ar).
+- Idealmente, emplear la cuenta revpsi@psico.unlp.edu.ar.
+- Para realizar el envío, utilizar el siguiente **modelo de correo**, completando las variables que se encuentran entre corchetes con la información adecuada. Este modelo puede ser copiado y pegado en el gestor de correo electrónico directamente para ser completado:
+
+> [autor.principal],
+>
+> Muchas gracias por enviarnos su manuscrito *[título.manuscrito]*. Le escribimos para informarle que hemos finalizado el proceso de revisión editorial del mismo. En el informe que se adjunta encontrará una serie de cuestiones que requieren su atención antes de proceder a enviar su artículo a evaluación. Le solicitamos tenga a bien enviar su manuscrito corregido en un plazo máximo de una semana, para no dilatar los tiempos de procesamiento editorial.
+>
+> Agradeciéndole su colaboración, le envío un saludo cordial,
+>
+> **[nombre.revisor]**
+>
+> Comité Editorial - Revista de Psicología
+>
+> *Facultad de Psicología, Universidad Nacional de La Plata (UNLP)*
+>
+> [https://revistas.unlp.edu.ar/RPSEUNLP](https://revistas.unlp.edu.ar/RPSEUNLP)
+>
+
+- El **campo [nombre.revisor]** debe ser completado con el nombre de la persona a cargo del screening.
+- No olvidar **solicitar el CV** en caso de que los autores no lo hubieran cargado.
+- El **informe** puede copiarse debajo del correo (si no fuera demasiado extenso) o bien enviarse como archivo adjunto. Es preferible copiarlo en el mismo correo, debajo del saludo. 
+- Una vez **recibido el/los archivo/s nuevos** por parte de los autores, cargarlo en la plataforma de gestión de la revista ([Asana](http://asana.com)) y mover la tarea asociada al manuscrito a la columna siguiente ("*Para enviar a evaluar*").
+
+***
+
+## Anexo 1: Modelo de informe de screening editorial
+
+###Revista de Psicología (Tercera Época)
+####Facultad de Psicología, Universidad Nacional de La Plata (UNLP)
+
+####Informe de revisión editorial
+
+##### Metadatos del envío
+(Sólo indicar si falta el CV u otro elemento de metadatos que no pueda ser modificado manualmente por el Comité Editorial, como por ejemplo las *palabras clave*. En cualquier caso, solicitar el envío de esta información por correo y luego cargarla de manera manual en OJS).
+
+##### Pautas generales de formato
+(...)
+
+##### Componentes del manuscrito
+(...)
+
+##### Estilo de escritura
+(...)
+
+##### Formato según el tipo de contribución
+(...)
+
