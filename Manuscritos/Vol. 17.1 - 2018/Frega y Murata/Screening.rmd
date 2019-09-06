@@ -1,4 +1,0 @@
-# Esto es una prueba
-Estamos probando la flexibilidad de un _documento_ de __Markdown__
->Esto es una cita (Autor, 2018)
-
